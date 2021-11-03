@@ -12,7 +12,7 @@ func main() {
 
 	helloHandler := func(w http.ResponseWriter, req *http.Request) {
 		io.WriteString(w, "Hello, world!\n")
-		fmt.Println("Hello, world")
+		fmt.Println("Hello, world xxx")
 	}
 
 	http.HandleFunc("/hello", helloHandler)
