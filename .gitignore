@@ -1,0 +1,153 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+logs/
+bin/
+tmp/
+
+# Python
+# virtualenv
+venv/
+env/
+.env/
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+*.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+# Basics
+*.py[cod]
+*.pyc
+__pycache__
+
+# Logs
+*.log
+pip-log.txt
+*.eml
+*.docx
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.tox
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Pycharm
+.idea
+
+# Vim
+
+*~
+*.swp
+*.swo
+
+# Compass
+.sass-cache
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+!build/**/*.sql
+*.sqlite
+*.ftppass
+*.rdb
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Secret keys
+credentials.json
+
+# Media folder
+media/*
+
+
+# Django production staticfiles
+staticfiles
+
+
+# EB environment variables
+.ebextensions/03_*
+
+# Elastic Beanstalk Files
+# .elasticbeanstalk/*
+# !.elasticbeanstalk/*.cfg.yml
+# !.elasticbeanstalk/*.global.yml
+
+__pycache__/
+.pytest_cache/
+.env
+.vscode
+.aws-sam
+samconfig.toml
+
+# Celery scheduler tasks
+celerybeat-schedule.db
+celerybeat.pid
+.python-version
+
+# Terraform
+.terraform/
+*.tfstate.backup
+.terraform.lock.hcl
+*.backup
+
+
+# Node.js
+node_modules
+
+# DB data dump
+dump/
